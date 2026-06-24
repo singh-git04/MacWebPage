@@ -1,0 +1,17 @@
+.cli-window{
+    height: 100%;
+   
+
+    div[name="react-console-emulator"]{
+        height: 100%;
+    }
+
+    div[name="react-console-emulator"]::-webkit-scrollbar{
+        width: 4px;
+    }
+
+    div[name="react-console-emulator"]::-webkit-scrollbar-thumb{
+        background-color: grey;
+        border-radius: 3rem;
+    }
+}

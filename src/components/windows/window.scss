@@ -1,0 +1,94 @@
+.window{
+    height: 100%;
+
+    border-radius: 1rem;
+    border: 1px solid rgba(245, 245, 245, 0.195);
+    background-color: black;
+    
+    padding-bottom: 3rem;
+    overflow: hidden;
+    
+
+    .nav{
+        padding-inline: 0.75rem;
+        padding-block: 0.25rem;
+        border-bottom: 1px solid rgba(245, 245, 245, 0.141);
+
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+
+        .dots{
+             display: flex;
+             gap: 0.25rem;
+             
+          
+        .dot{
+
+            height: 12px;
+            width: 12px;
+            border-radius: 50%;
+           
+        }
+
+         .red{
+                background: red;
+                position: relative;
+            }
+                .red::before {
+                    content: "✕";
+                    position: absolute;
+                    inset: 0;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    font-size: 8px;
+                    font-weight: 800;
+                    color: rgba(0, 0, 0, 0.7);
+
+                    opacity: 0;
+                    transition: opacity 0.2s ease;
+                    
+                    }
+
+                    .red:hover::before {
+                    opacity: 1; /* Show only on hover */
+}
+            .yellow{
+                background-color: yellow;
+            }
+
+            .green{
+                background-color: green;
+            }
+    
+   }
+
+   .title{
+    font-weight: 500;
+    font-size: 0.85rem;
+   }
+    }  
+    .main-content{
+           height: 100%;
+
+           flex: 1;
+           overflow: auto;
+    }
+       
+        .main-content::-webkit-scrollbar{
+          
+          width: 2px;
+    }
+
+    .main-content::-webkit-scrollbar-thumb{
+        background-color:rgba(128, 128, 128, 0.6);
+        border-radius:3px;
+         
+    }
+
+
+    
+}

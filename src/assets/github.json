@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "https://imgs.search.brave.com/pFlI3wfrIyzsiTUU4IhFLLaFkz8AEGsoddkbsG3Pxno/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzE3LzUyLzk2Lzk0/LzM2MF9GXzE3NTI5/Njk0NTNfMDZRYmhN/Q3k5N1dLYnY3VXRo/NTMwYjBZbEF5b2t3/ZzcuanBn",
+    "title": "Task Manager App",
+    "description": "A full-stack task management application where users can create, update, delete, and organize daily tasks with authentication and responsive UI.",
+    "tags": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    "repoLink": "https://github.com/username/task-manager",
+    "demoLink": "https://task-manager-demo.vercel.app"
+  },
+  {
+    "id": 2,
+    "image": "https://imgs.search.brave.com/YvfXgd-Uwj5EeUHP8erLjgjGX9xROre2oRmEgLt3wOI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/em9ob3dlYnN0YXRp/Yy5jb20vc2l0ZXMv/endlYi9pbWFnZXMv/Y29tbWVyY2UvaG9t/ZXBhZ2Uvc2tpbnMt/YmVhdXR5LnBuZw",
+    "title": "E-Commerce Store",
+    "description": "A modern e-commerce website with product listings, shopping cart, user authentication, and secure checkout experience.",
+    "tags": ["React", "Redux Toolkit", "Node.js", "MongoDB", "Stripe"],
+    "repoLink": "https://github.com/username/ecommerce-store",
+    "demoLink": "https://ecommerce-store.vercel.app"
+  },
+  {
+    "id": 3,
+    "image": "https://cdn-media-0.freecodecamp.org/size/w2000/2022/08/pexels-keira-burton-6146929.jpg",
+    "title": "Real-Time Chat App",
+    "description": "A real-time messaging platform supporting private chats, online status, typing indicators, and instant message delivery.",
+    "tags": ["React", "Socket.io", "Express", "MongoDB", "JWT"],
+    "repoLink": "https://github.com/username/chat-app",
+    "demoLink": "https://chat-app-demo.vercel.app"
+  },
+  {
+    "id": 4,
+    "image": "https://imgs.search.brave.com/9u472nznqWw7-8BV5CXcrH4UtDtpboZtgixk4bgx3fM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJ1cGxvYWQv/MTczNDIzNTUvZmls/ZS9vcmlnaW5hbC1l/M2QzNjJmN2Y4ZThj/NzQzM2VmYTI2Y2M5/M2VmMmU1My5wbmc_/Zm9ybWF0PXdlYnAm/cmVzaXplPTQwMHgz/MDAmdmVydGljYWw9/Y2VudGVy",
+    "title": "Developer Portfolio",
+    "description": "A responsive portfolio website showcasing projects, skills, and contact information with smooth animations and modern UI.",
+    "tags": ["React", "Tailwind CSS", "Framer Motion", "Vite"],
+    "repoLink": "https://github.com/username/portfolio",
+    "demoLink": "https://username-portfolio.vercel.app"
+  },
+  {
+    "id": 5,
+    "image": "https://imgs.search.brave.com/-P853IcxTZT7ta5on3YxAGfyNHFXsrO_fBEhZvf1x68/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJ1cGxvYWQv/NDIwNTM4OTcvZmls/ZS9vcmlnaW5hbC02/MjY5OWM2NzUwZGVl/N2FhZTE2ZDA5MzUx/Y2M1MzlkMi5qcGc_/Zm9ybWF0PXdlYnAm/cmVzaXplPTQwMHgz/MDAmdmVydGljYWw9/Y2VudGVy",
+    "title": "Movie Explorer",
+    "description": "A movie discovery application that fetches data from a public API, allowing users to search movies, view ratings, and explore details.",
+    "tags": ["React", "REST API", "Tailwind CSS", "Axios"],
+    "repoLink": "https://github.com/username/movie-explorer",
+    "demoLink": "https://movie-explorer.vercel.app"
+  }
+]
